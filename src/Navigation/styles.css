@@ -1,0 +1,28 @@
+.navigation {
+  position: absolute;
+  right: 30px;
+  top: 10px;
+  text-align: right;
+}
+.navigation > button {
+  opacity: 0.4;
+}
+
+.navigation-content {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.navigation-content ol {
+  padding-left: 1em;
+  margin-bottom: 0;
+}
+.navigation-content li {
+  text-align: left;
+}
+
+.no-display {
+  display: none;
+}

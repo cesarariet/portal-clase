@@ -1,24 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import Page from "./Page";
+import "./App.css";
+import React from "react";
 
 function App() {
+  function resizePages() {
+    console.log("tocando boton");
+    document.querySelector("#leftPage").classList.toggle("split-screen");
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <React.Fragment>
+      <Page id="leftPage" />
+      <Page id="rightPage" />
+      <button className="button-split-screen" onClick={resizePages}>
+        {" "}
+        +{" "}
+      </button>
+    </React.Fragment>
   );
 }
 

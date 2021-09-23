@@ -6,7 +6,7 @@ Para optimizar el trabajo he desarrollado esta aplicación web que me permite te
 
 ## Implementación de la aplicación
 
-Esta aplicación puede usarse directamente desde (aquí)[https://https://clase-cesarariet.netlify.app/]
+Esta aplicación puede usarse directamente desde [aquí](https://clase-cesarariet.netlify.app/)
 
 # Funcionamiento de la aplicación
 

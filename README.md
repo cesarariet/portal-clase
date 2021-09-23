@@ -4,6 +4,10 @@ En mis clases suelo usar dos o más pestañas del navegador, en una de ellas con
 
 Para optimizar el trabajo he desarrollado esta aplicación web que me permite tener dos páginas web abiertas al mismo tiempo en pantalla dividida o una de esas páginas en pantalla completa, con solo el click en un botón.
 
+## Implementación de la aplicación
+
+Esta aplicación puede usarse directamente desde (aquí)[https://https://clase-cesarariet.netlify.app/]
+
 # Funcionamiento de la aplicación
 
 La aplicación cuenta con tres botones principales y almacena el estado en localStorage

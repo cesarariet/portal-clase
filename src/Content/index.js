@@ -8,6 +8,7 @@ const Content = ({ urlContent, titleContent }) => {
         className="content-frame"
         src={urlContent}
         title={titleContent}
+        referrerPolicy="no-referrer"
       ></iframe>
     </>
   );
